@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="CSS/registrarseAIP.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="background-box">
+            <div class="SupText" >
+                <h3>REGISTRATE</h3>
+            </div>
+            <div class="form-box">
+                <form action="" id="formulario">
+                    <div class="sup-flex">
+                        <div>
+                            <section class="form-section">
+                                <p class="text-center">Nombre</p>
+                                <input type="text" name="names" placeholder="Nombre" required>
+                            </section>
+                            <section class="form-section">
+                                <p class="text-center">Contraseña</p>
+                                <input type="password" name="password" placeholder="Contraseña" required>
+                            </section>
+                        </div>
+                        <div>
+                            <section class="form-section">
+                                <p class="text-center">Edad</p>
+                                <input type="number" name="age" placeholder="Edad" min="13" max="99" required>
+                            </section>
+                            <section class="form-section">
+                                <p class="text-center">Comprobar contraseña</p>
+                                <input type="password" name="rcontraseña" placeholder="Contraseña" required>
+                            </section>
+                        </div>
+                    </div>
+                    <section class="form-section">
+                        <p class="text-center">Email</p>
+                        <input type="email" name="email" placeholder="correo@correo.com">
+                    </section>
+                    <a href="iniciarSesionAIP.html"><section class="form-section">
+                        <input type="button" value="Registrarme" id="btnRegister">
+                    </section></a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
